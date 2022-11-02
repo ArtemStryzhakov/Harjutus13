@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt')
-const myPassword = '123123';
+const myPassword = 'ArtemStryzhakov';
 
 console.time("Time to generate salt");
 const salt = bcrypt.genSaltSync(15);
